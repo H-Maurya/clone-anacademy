@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header {
+  margin-bottom: 65px;
+}
+
+button {
+  position: relative;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 0ch;
+  background-color: #09bd81;
+  color: white;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  top: -2px;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.text {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  margin: 75px 0;
+  margin-top: 120px;
+  background: url(sec.svg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+
+.heading {
+  margin: inherit;
+}
+
+.heading h2 {
+  color: #3d4853;
+  margin: 5px 0;
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+.learn .login {
+  margin: 15px 0;
+}
+
+.course {
+  margin-top: 45px;
+  font-size: large;
+}
+
+.course p {
+  color: gray;
+  margin: 12px;
+  margin-left: 0;
+}
+
+.course h5 {
+  color: #09bd81;
+  margin: 12px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.image {
+  background-size: cover;
+  max-width: 100%;
+  width: 70%;
+  height: auto;
+  margin-top: 25px;
+  z-index: 0;
+}
+
+.list {
+  display: flex;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row {
+  margin: 0 -5px;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  text-align: left;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 25px;
+}
+.card h4 {
+  color: #3c4852;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.social,
+.list1,
+.app {
+  margin: 0 50px;
+  font-family: "poppins", sans-serif;
+}
+.social li {
+  display: inline;
+}
+
+li img {
+  width: 15px;
+  margin: 8px;
+}
+
+ul {
+  list-style: none;
+}
+
+.media {
+  margin-top: 25px;
+}
+.media li {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 220px;
+  display: flex;
+  justify-content: center;
+}
+
+.list1 h6,
+.app h6 {
+  font-size: 12px;
+}
+
+.list1 li {
+  font-size: 12px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.list1 li:hover {
+  color: #09bd81;
+}
+
+.app img {
+  width: 120px;
+}
+
+.app ul {
+  display: flex;
+}
+
+.app li {
+  margin: 12px 0;
+}
+.app li img {
+  cursor: pointer;
+  height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
